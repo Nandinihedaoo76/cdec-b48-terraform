@@ -2,7 +2,7 @@ environment = "staging"
 aws_region = "us-east-1"
 
 # RDS Variables
-rds_instance_class        = "db.t3.small"
+rds_instance_class        = "db.t4g.micro"
 rds_allocated_storage     = 50
 rds_max_allocated_storage = 200
 rds_username             = "admin"
